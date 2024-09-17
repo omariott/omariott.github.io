@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://octavemariotti.github.io/" 
+title: Octave Mariotti
 paginate: 20
 theme: PaperMod
 
@@ -9,32 +9,33 @@ enableRobotsTXT: true
 taxonomies:
     tag: tags
 
-menu:
-    main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+# menu:
+#     main:
+#         - name: Books
+#           url: books/
+#           weight: 5 
+#         - name: Papers
+#           url: papers/
+#           weight: 2
+#         - name: Courses
+#           url: courses/
+#           weight: 3
+#         - name: Data
+#           url: data/
+#           weight: 4 
+#         - name: Blog
+#           url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+#           weight: 6
+
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
-    author: Moritz-Maria von Igelfeld
+    description: "I am a post-doctoral researcher in Computer Vision and Machine Leraning"
+    author: Octave Mariotti
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -43,7 +44,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    # MainSections: ["books","courses","papers","data"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -53,49 +54,38 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          title: Octave Mariotti
+          subtitle: "I am a post-doctoral researcher in Computer Vision and Machine Leraning at the 
+          [School of Informatics](https://informatics.ed.ac.uk/) of the University of Edinburgh. 
+          I am part of the [Visual Computing Group](https://groups.inf.ed.ac.uk/vico) and the
+          [Visual AI project](https://www.robots.ox.ac.uk/~vgg/projects/visualai/index.html), 
+          working principally with [Hakan Bilen](https://homepages.inf.ed.ac.uk/hbilen/) and 
+          [Oisin Mac Aodha](https://homepages.inf.ed.ac.uk/omacaod/).\n
+
+          My research interests cover learning without human annotations, 3D awareness in deep
+          image models and robustness in evaluation.\n
+
+          I completed my PhD in 2022 at the University of Edinburgh under the supervision of Hakan Bilen.
+          Before that, I obtained a Bachelor and Master degrees in theoretical computer science from the 
+          [ENS de Lyon](https://www.ens-lyon.fr/en/).\n
+
+          ---
+
+          Email: omariott (at) ed.ac.uk
+
+          "
           imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          imageTitle: Moritz-Maria von Igelfeld
-          buttons:
-            - name: Papers
-              url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+          imageWidth: 256
+          imageHeight: 256
+          imageTitle: Octave Mariotti
 
     socialIcons:
         - name: CV
           url: cv.pdf
-        - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/citations?user=kaGm6fcAAAAJ
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        - name: Twitter
-          url: https://twitter.com/McCallSmith
+          url: https://github.com/omariott
 
     assets:
         disableScrollBarStyle: true
@@ -103,7 +93,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Octave Mariotti"
       icon: favicon.ico
       iconHeight: 18
 
