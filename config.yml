@@ -55,7 +55,7 @@ params:
     profileMode:
           enabled: true
           title: Octave Mariotti
-          subtitle: "I am a post-doctoral researcher in Computer Vision and Machine Leraning at the 
+          subtitle: "I am a post-doctoral researcher in Computer Vision and Machine Learning at the 
           [School of Informatics](https://informatics.ed.ac.uk/) of the University of Edinburgh. 
           I am part of the [Visual Computing Group](https://groups.inf.ed.ac.uk/vico) and the
           [Visual AI project](https://www.robots.ox.ac.uk/~vgg/projects/visualai/index.html), 
@@ -72,7 +72,6 @@ params:
           ---
 
           Email: omariott (at) ed.ac.uk
-
           "
           imageUrl: "picture.jpeg"
           imageWidth: 256
@@ -99,8 +98,8 @@ params:
 
 markup:
     goldmark:
-        renderer:
-            unsafe: true
+        # renderer:
+        #     unsafe: true
     highlight:
         guessSyntax: true
         style: autumn 

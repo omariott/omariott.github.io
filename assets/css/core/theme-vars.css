@@ -49,3 +49,8 @@
 .dark.list {
     background: var(--theme);
 }
+
+a,
+a:link {
+  color: seagreen;
+}
